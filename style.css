@@ -1,0 +1,16 @@
+h1{
+    font-size: 25 !important;
+    font-family: 'Lobster', cursive !important;
+}
+.btn-warning:hover{
+    background-color: crimson;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 30px rgba(235, 33, 117, 0.89);}
+    to{box-shadow: 1px 1px 30px rgba(148, 14, 226, 0.89);}
+}
